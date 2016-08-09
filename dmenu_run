@@ -1,0 +1,2 @@
+#!/bin/sh
+dmenu_path | dmenu "$@" -l 60 -p "SEARCH " -nb "#000000" -sb "#000000" -sf "#00FFFF" | ${SHELL:-"/bin/sh"} &
